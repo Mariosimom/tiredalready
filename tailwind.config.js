@@ -4,6 +4,12 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}"
   ],
-  theme: { extend: {} },
+  theme: {
+    extend: {
+      colors: {
+        "brand-gold": "#FFD700" // gold color
+      }
+    }
+  },
   plugins: [],
 };
